@@ -1,0 +1,42 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Packages created with cx_Freeze
+build
+exe.linux-*
+exe.win-*
+exe.macosx-*
+
+# Generated files
+*.csv
+*.json
+*.log
+*.sqlite
+
+# Editor-related
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Private documentation
+private_doc/
+private_doc/*
+*.pyc
